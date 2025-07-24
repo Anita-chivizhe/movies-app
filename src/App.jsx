@@ -6,13 +6,13 @@ export default function App() {
   console.log("Hi");
   return (
     <div className="App">
-      <Movie />
+      <MovieList />
     </div>
   );
 }
 //function addMovie
 
-function Movie() {
+function MovieList() {
   const movie = [
     {
       name: "Vikram",
